@@ -1,0 +1,13 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="N0rEG+/5i#yBuW3l#KN!">miImagen</variable><variable id="o:-ZmP{,62d-=mwHQqS7">strip</variable></variables><block type="pxt-on-start" id="^).?-@+`xWj}@pKy4=hV" x="4" y="-242"><statement name="HANDLER"><block type="device_print_message" id="fAvFB+SV.8Y^*2/u.ihb"><value name="text"><shadow type="text" id="ssybXS5WUT@]zkO!Up@+"><field name="TEXT">hello</field></shadow></value><next><block type="device_pause" id="]XZhVk(R[Oup*~mD/Gg0"><value name="pause"><shadow type="timePicker" id="[$3`I^H2st:Ke%K|k6eL"><field name="ms">1000</field></shadow></value><next><block type="device_print_message" id="ZIMZY$xL8(:%amH,CcQY"><value name="text"><shadow type="text" id="Kv:0],?(zq}Y+C=fItJM"><field name="TEXT">my name is jimena </field></shadow></value></block></next></block></next></block></statement></block><block type="device_button_event" id="pvHoo#;dE([+yFETw*O6" x="0" y="0"><field name="NAME">Button.A</field><statement name="HANDLER"><block type="device_set_brightness" id="momB8|W0bnZpG0t.+@}6"><value name="value"><shadow type="math_number_minmax" id="4IT/FZ$SG6VPx%]8v+]Y"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">123</field></shadow></value><next><block type="device_show_leds" id="2Vpb?1R99Y$gsEEGg1M$"><field name="LEDS">`
+        . # . # . 
+        . . . . . 
+        # # # # # 
+        # . . . # 
+        # . . . #
+        `</field><next><block type="basic_show_icon" id="cwpsTJeYG.me[2h$.nze"><field name="i">IconNames.Happy</field><next><block type="device_clear_display" id="=NIJLzm4f?86;~G+xhzP"></block></next></block></next></block></next></block></statement></block><block type="device_button_event" id="F^BIP%$-R%S^L(6Bj*CI" x="55" y="435"><field name="NAME">Button.B</field><statement name="HANDLER"><block type="device_show_leds" id="lglVK9a|p}o^7IiFWGK:"><field name="LEDS">`
+        . . . . . 
+        . # . # . 
+        . . # . . 
+        # . . . # 
+        # # # # #
+        `</field><next><block type="basic_show_arrow" id="LY|6jy?p0~bqdQ*z]R|0"><value name="i"><shadow type="device_arrow" id="lV/[|*acs^gj*L8pb^ei"><field name="arrow">ArrowNames.South</field></shadow></value><next><block type="device_set_brightness" id="Vb,mVrk{tos)Goe*B;(R"><value name="value"><shadow type="math_number_minmax" id="hFE1:s1g~Uk5lWFaxiT@"><mutation min="0" max="255" label="Value" precision="0"></mutation><field name="SLIDER">255</field></shadow></value></block></next></block></next></block></statement></block></xml>
